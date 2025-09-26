@@ -50,7 +50,7 @@ Implements **FIFO (First In, First Out)** structure.
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/stacks-queues-exercise.git
+   git clone [https://github.com/your-username/stacks-queues-exercise.git](https://github.com/nasriladaaaxsos/pt062025.git)
    cd stacks-queues-exercise
 
 2. **Run the program**
