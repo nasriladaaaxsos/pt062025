@@ -1,10 +1,11 @@
 from Queue import Queue
 
+
 class Queue:
 
     def __init__(self):
-        self.head = None   # front
-        self.tail = None   # Rear
+        self.head = None  # front
+        self.tail = None  # Rear
 
     # add new element to Queue
     def enqueue():
@@ -15,13 +16,21 @@ class Queue:
         pass
 
     # check if Queue is empty
-    def is_empty():
-        pass
+    def is_empty(self):
+        return self.head == None
 
     # return the peek item
-    def get_peek():
-        pass
+    def get_peek(self):
+        if self.head:
+            return self.head.data
+        else:
+            return None
 
     # print all items
-    def print_queue():
-        pass
+    def print_queue(self):
+        current = self.head
+        values = []
+        while current:
+            values.append(current.data)
+            current = current.next
+        print(values)
