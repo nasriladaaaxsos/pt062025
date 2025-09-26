@@ -10,8 +10,13 @@ class Stack:
         pass
 
     # pop top element and return value
-    def pop_element():
-        pass
+    def pop_element(self):
+        if self.top:
+            data = self.top.data
+            self.top =self.top.next
+        else:
+            return None
+        return data
 
     # check if Stack is empty
     def is_empty():
