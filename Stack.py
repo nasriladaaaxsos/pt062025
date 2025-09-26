@@ -1,4 +1,5 @@
 from Stack import Stack
+from Node import Node
 
 class Stack:
     
@@ -18,9 +19,16 @@ class Stack:
         pass
 
     # return the top item
-    def get_top():
-        pass
+    def get_top(self):
+        if self.top == None:
+            return None
+        return self.top.data
 
     # print all items
-    def print_stack():
-        pass
+    def print_stack(self):
+        if self.top == None:
+            print("Stack is empty")
+        while self.top != None:
+            print(self.top.data)
+            self.top = self.top.next
+        
