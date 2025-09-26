@@ -6,17 +6,22 @@ class Queue:
         self.head = None   # front
         self.tail = None   # Rear
 
+    # add new element to Queue
     def enqueue():
         pass
 
+    # return the value of peek and remove the front element
     def dequeue():
         pass
 
+    # check if Queue is empty
     def is_empty():
         pass
 
+    # return the peek item
     def get_peek():
         pass
 
+    # print all items
     def print_queue():
         pass
