@@ -1,5 +1,7 @@
 from Queue import Queue
-from Stack import Stack
 from Node import Node
 
-#create instance here
+q = Queue()
+q.head.data = 10
+print(q.dequeue())
+print(q.dequeue())
